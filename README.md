@@ -124,7 +124,7 @@ Go to the following below components to update the `import image...` line to ref
 
 * `/src/Components/Home.jsx` - section at top of the page, main image you will see when site loads (woman standing by server wall in sample)
    ```javascript
-      import image from "../images/server-wall.jpg";
+      import image from "C:\Users\USER\Pictures\portfolio.webp";
       const imageAltText = "woman holding laptop standing by server room with glass wall";
    ```
 * `/src/Components/About.jsx` - background behind the detailed "About me" section (abstract mosaic in sample)
@@ -142,8 +142,9 @@ Go to the following below components to update the `import image...` line to ref
 
 The About section helps to give people a bit more information about your skills and passions. Within `/src/Components/About.jsx` you will find 2 values to update:
 
-* `description`: short sentence or two describing yourself, career goals, and/or passions
-* `detailOrQuote`: longer block for you to add more detail about yourself, or even a quote you like
+* `description`: About Myself  Proud to announce the completion of my Intermediate education from Army Public School and College COD Karachi with an impressive 81% and A grade! Continuing my academic journey, I also completed my Matriculation from Army Public School COD Karachi. Currently, I'm immersed in IT initiative, delving into Artificial Intelligence, Web 3.0, and the Metaverse. And learning Full stack web developing. Excited to contribute to the future of technology and innovation!
+* `detailOrQuote`: HTML5, CSS3, TYPESCRIPT, C++, PYTHON 
+
 
 The second section to update is the Portfolio section, where you highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
 
@@ -154,24 +155,19 @@ The sample design has 4, but the number you include is up to you.
 ```javascript
 const projectList = [
   {
-    title: "10 Things to know about Azure Static Web Apps 🎉",
-    description: "Collaboration to create a beginner friendly....",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "CLI ATM MACHINE",
+    description: "HELP USER TO EASILY WITHDRAWAL, DEPOSIT, CHECK BALANCE .",
+    url: "https://github.com/muskaanfayyaz/atm-machine-.git",
   },
   {
-    title: "Web Development for Beginners",
-    description: "Contributed sketch note imagery to accompany...",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "FASHION DESIGNING WEBSITE",
+    description: "A shopping website to buy cloths and new collection with HTML5 and CSS3",
+    url: "https://github.com/muskaanfayyaz/project-on-html-and-css.git",
   },
   {
-    title: "My Resume Site",
-    description: "Created from Microsoft's resume workshop...",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and GitHub.dev",
-    description: "Video interview to explain when to use GitHub.dev...",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "LINKLIST IN C++",
+    description: "Created from c++ to add anode, delete a node, update a node and user friendly menu ",
+    url: "https://github.com/muskaanfayyaz/linked-list-in-c-.git",
   },
 ];
 ```
